@@ -66,6 +66,6 @@ Investigated production issues, coordinated engineering escalations, and improve
 
 ## Resume
 
-[Semi Song Resume](SS-Github-Resume.pdf)
+[Click Here](SS_Github_Resume.pdf)
 
 ---
