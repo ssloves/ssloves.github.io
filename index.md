@@ -1,10 +1,18 @@
 # Semi Song
 
-## AI Risk, Evaluation & Safeguards
+## AI Governance Research
+### Evaluating Institutional Independence for AI Decision Systems
 
-I work at the intersection of enterprise AI deployment, technical operations, and AI risk evaluation.
+**Former Google · Former Palantir · IAPP AIGP**
 
-My recent work focuses on making failure modes observable, actionable, and operationally useful — bridging the gap between what AI systems appear to do and how they actually behave.
+I research how AI systems behave once institutions put them in the oversight seat — and how to make their failure modes observable, measurable, and auditable.
+
+> **Current AI governance evaluates whether models are robust, fair, and transparent.**
+> **None of it evaluates whether AI oversight stays independent of the institution.**
+
+---
+
+![Healthy governance loop vs. the institutional confirmation loop. Left: the institution surfaces the advisor's disagreement and revises. Right: it selects the advisor's agreement, reuses it, and drifts — with no change to the model.](contrast_loops.png)
 
 ---
 
@@ -12,15 +20,41 @@ My recent work focuses on making failure modes observable, actionable, and opera
 
 ### Institutional Independence — A Governance Framework for AI Advisors
 
-*A governance framework for evaluating whether AI advisors remain independent of the institutions that deploy them.*
+A new governance property for AI advisors, with the tools to measure it.
 
-Organizations increasingly put AI in the **oversight seat** — risk reviews, compliance checks, safety sign-offs — and assume an AI review means an independent check. It can quietly mean the opposite: the institution trusts and reuses the recommendations that fit its incentives, and over time its AI oversight drifts toward confirming what it already wanted — *with no change to the model.*
+- Defines **institutional independence** as a property orthogonal to robustness, fairness, and transparency
+- Introduces **five operational, log-computable metrics**
+- Includes a **mechanistic simulation** (selection alone produces measurable drift)
+- Includes a **reference implementation** of the metrics
+- Includes **governance case studies** (OpenAI, Anthropic, Meta) and a standards-gap analysis (NIST, ISO 42001, EU AI Act)
 
-Current governance evaluates whether models are robust, fair, and transparent. **None of it checks whether AI oversight has stayed independent of the institution.** This framework defines that property, gives five log-computable measures for it, and provides an auditable benchmark protocol — with a mechanistic simulation, reference implementation, a case study applied to OpenAI, Anthropic, and Meta, and a standards-gap analysis against NIST AI RMF, ISO/IEC 42001, and the EU AI Act.
+*Working paper, 2026 · preprint forthcoming.*
 
-*The full position paper is in preparation for arXiv and conference submission; the framework, reference implementation, and supporting materials are available now.*
+**Quick links:**
+[Executive Memo (3 pages)](https://github.com/ssloves/institutional-independence-framework/blob/main/paper/executive_memo.pdf) ·
+[Framework](https://github.com/ssloves/institutional-independence-framework) ·
+[Simulation](https://github.com/ssloves/institutional-independence-framework/blob/main/simulation/sim_loop.py) ·
+[Case Study](https://github.com/ssloves/institutional-independence-framework/blob/main/paper/case_study.pdf) ·
+[Reference Profiles](https://github.com/ssloves/institutional-independence-framework/blob/main/reference_profiles.pdf) ·
+[Standards Gap](https://github.com/ssloves/institutional-independence-framework/blob/main/standards_gap.pdf) ·
+[Research Roadmap](https://github.com/ssloves/institutional-independence-framework/blob/main/research_roadmap.pdf)
 
-[Framework Repository](https://github.com/ssloves/institutional-independence-framework) · [Executive Memo (3 pages)](https://github.com/ssloves/institutional-independence-framework/blob/main/paper/executive_memo.pdf)
+---
+
+## Selected Projects
+
+### AI Risk Control Pipeline
+
+Experimental framework for AI risk auditing and evaluation.
+
+- Controlled perturbation and risk injection
+- Semantic drift detection
+- Activation steering and intervention
+- Behavioral validation across toy models and GPT-2
+
+Key findings include representation collapse, sign mismatches, and non-selective steering when transferring interventions to pretrained models.
+
+[Project Repository](https://github.com/ssloves/ai_risk_control_pipeline)
 
 ---
 
@@ -34,37 +68,13 @@ A reflection on uncertainty, ontology-driven systems, and why AI safety depends 
 
 ---
 
-## Selected Projects
-
-### AI Risk Control Pipeline
-
-Experimental framework for AI risk auditing and evaluation.
-
-Key areas explored:
-
-- Controlled perturbation and risk injection
-- Semantic drift detection
-- Activation steering and intervention
-- Behavioral validation
-- Failure analysis across toy models and GPT-2
-
-Key findings include representation collapse, sign mismatches, and non-selective steering when transferring interventions to pretrained models.
-
-[Project Repository](https://github.com/ssloves/ai_risk_control_pipeline)
-
----
-
 ## Experience
 
-### Palantir
+### Palantir — Business Development & Partnerships
 
-**Business Development & Partnerships**
+Supported enterprise AI adoption across Korean enterprises, coordinating technical, product, and executive stakeholders.
 
-Supported enterprise AI adoption efforts across Korean enterprises, coordinating technical, product, and executive stakeholders.
-
-### Google
-
-**Android TV Partner Engineering Technical Operations**
+### Google — Android TV Partner Engineering, Technical Operations
 
 Investigated production issues, coordinated engineering escalations, and improved operational processes for global partners.
 
@@ -72,11 +82,7 @@ Investigated production issues, coordinated engineering escalations, and improve
 
 ## Current Focus
 
-- AI Risk Evaluation
-- Safety Evaluations
-- AI Governance
-- Model Behavior Analysis
-- IAPP AIGP
+AI Governance Evaluation · Safety Evaluations · Model Behavior Analysis · AI Risk · IAPP AIGP
 
 ---
 
