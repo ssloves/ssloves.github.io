@@ -8,6 +8,22 @@ My recent work focuses on making failure modes observable, actionable, and opera
 
 ---
 
+## Featured Work
+
+### Institutional Independence — A Governance Framework for AI Advisors
+
+*A governance framework for evaluating whether AI advisors remain independent of the institutions that deploy them.*
+
+Organizations increasingly put AI in the **oversight seat** — risk reviews, compliance checks, safety sign-offs — and assume an AI review means an independent check. It can quietly mean the opposite: the institution trusts and reuses the recommendations that fit its incentives, and over time its AI oversight drifts toward confirming what it already wanted — *with no change to the model.*
+
+Current governance evaluates whether models are robust, fair, and transparent. **None of it checks whether AI oversight has stayed independent of the institution.** This framework defines that property, gives five log-computable measures for it, and provides an auditable benchmark protocol — with a mechanistic simulation, reference implementation, a case study applied to OpenAI, Anthropic, and Meta, and a standards-gap analysis against NIST AI RMF, ISO/IEC 42001, and the EU AI Act.
+
+*The full position paper is in preparation for arXiv and conference submission; the framework, reference implementation, and supporting materials are available now.*
+
+[Framework Repository](https://github.com/ssloves/institutional-independence-framework) · [Executive Memo (3 pages)](https://github.com/ssloves/institutional-independence-framework/blob/main/paper/executive_memo.pdf)
+
+---
+
 ## Writing
 
 ### AI Doesn't Solve Risk — It Reorganizes It
@@ -18,7 +34,7 @@ A reflection on uncertainty, ontology-driven systems, and why AI safety depends 
 
 ---
 
-## Selected Project
+## Selected Projects
 
 ### AI Risk Control Pipeline
 
